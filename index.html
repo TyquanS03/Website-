@@ -41,31 +41,121 @@
             </nav>
 </header>
             
-                <div class="container">
-                        <h1 class="breakfastHeader" >
-                            Breakfast: The most Important Meal of The day
-                        </h1>
-                </div>
 
         <main>
+            <div class="container">
+                <h1 class="homeHeader" >
+                    Are You Hungry & Unsure Of What To Eat? Worry No More
+                </h1>
             
-            <div class="recipe-container">
-                <img src="images/pancakes.JPG" alt="food picture" width="175px" height="175px">
-                <div class="recipe-content">
-                <h2>Inspirations/Recipes</h2>
-                <div class ="recipe-description">
-                    <p>  Buttery crisped edege pancakes with a side of delicious seasoned fluffy eggs:
-                    This is a quick meal of Mrs. Butter-worths pancake mix with a dash of vinilla extract, seared on a pan with butter and fluffy scambled eggs seasoned with salt and pepper cooked with butter</p>
+            
+                <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 11</div>
+                    <img src="images/pancakes.JPG" style="width:100%">
+                    <div class="text">Buttery crisped edge pancakes with a side of delicious seasoned fluffy eggs:
+                        This is a quick meal of Mrs. Butterworth's pancake mix with a dash of vanilla extract, seared on a pan with butter, and fluffy scrambled eggs seasoned with salt and pepper cooked with buttert</div>
                 </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 11</div>
+                    <img src="images/Hamburger steak.JPG" style="width:100%">
+                    <div class="text">Hamburger steak smothered in gravy sautéed onions and mushrooms. Along a side of loaded baked mashed potato casserole.</div>
                 </div>
-                </div> 
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 11</div>
+                    <img src="images/omelette.jpeg" style="width:100%">
+                    <div class="text">Sausage Egg Omelete cooked with cheese, onions, bell peppers, spinach, mushrooms, and tomatoes.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 11</div>
+                    <img src="images/Honey Jerk Chicken.jpeg" style="width:100%">
+                    <div class="text">Honey Jerck Chicken cooked with onions and bell peppers alongside cilantro lime rice.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 11</div>
+                    <img src="images/frenchtoast.jpeg" style="width:100%">
+                    <div class="text">French toast with powdered sugar, strawberries, and homade strawberry puree alognside fluffy eggs, pork sausage, and baccon.</div>
+
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 11</div>
+                    <img src="images/Broccolie and rice caserole.jpeg" style="width:100%">
+                    <div class="text">Baked Cheesy broccolie and rice casserole topped with ritz crackers.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 11</div>
+                    <img src="images/Pancake Breakfast sandwhich.jpeg" style="width:100%">
+                    <div class="text">Sausgen and cheesey folded eggs stuffed between two buttery Crsiped edged pancakes.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 11</div>
+                    <img src="images/Chicken and Shrimp alfredo.jpeg" style="width:100%">
+                    <div class="text">Homemade backed broccoli, chicken, and shrimp alfredo, topped with mozzarella cheese. </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">9/ 11</div>
+                    <img src="images/Rasta Pasta.jpeg" style="width:100%">
+                    <div class="text">Honey jerck chicken alfredo cooked with bell peppers and broccoli topped with parmesean cheese.</div>
+
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 11</div>
+                    <img src="images/bologna breakfast sandwhich.jpeg" style="width:100%">
+                    <div class="text">Fried bologna and fried egg with cheese in between two pieces of buttery toast.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">11 / 11</div>
+                    <img src="images/spaghetti.jpeg" style="width:100%">
+                    <div class="text">Baked Spaghetti topped with mozzarella and cheddar cheese with parsley flakes on top.</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+            </div>
+            <div class="social-sharing">
+                <button id="share-facebook">Share on Facebook</button>
+                <button id="share-twitter">Share on Twitter</button>
+            </div>
+                
+            
         </main>
         <footer>
+            
             
                 <img src="images/Diverse Cooking Inspirations For You.jpg" alt="Logo" alt="Logo" width="200px" height="140px">
                 
                 <p>Diverse Cooking Inspirations For You </p>
             <p> &copy; 2023 Tyquan Spurgeon, University Of South Carolina, Columbia South Carolina</p>
+            <script src="script.js"></script>
 
         </footer>
         

@@ -23,7 +23,8 @@
 
     <body>
         <header>
-            <div class="logo">
+            
+                <div class="logo">
                 <img src="images/Diverse Cooking Inspirations For You.jpg" alt="Logo">
                 </div>
                 <div class="container">
@@ -38,32 +39,88 @@
 
                 </ul>
             </nav>
+</header>
             
 
-        </header>
         <main>
-                <div class="container">
-                    <h2>Breakfast: The Most Important Meal Of The Day</h2>
-            </div>
-            <div class="recipe-section">
-                <h3>Inspirations/Recipes</h3>
-                <div class="recipe">
-                <img src="images/Breakfast.jpeg" alt="food picture" width="250px" height="250px"> 
-                <p>Steak Egg Omelete cooked with cheese, tomatoes, onions, bell peppers, and spinach.
-                </p>
+            <div class="container">
+                <h1 class="breakfastHeader" >
+                   Breakfast: The Most Important Meal Of The Day
+                </h1>
+            
+            
+                <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="images/pancakes.JPG" style="width:100%">
+                    <div class="text">Buttery crisped edge pancakes with a side of delicious seasoned fluffy eggs:
+                        This is a quick meal of Mrs. Butterworth's pancake mix with a dash of vanilla extract, seared on a pan with butter, and fluffy scrambled eggs seasoned with salt and pepper cooked with buttert</div>
                 </div>
+            
+                
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="images/omelette.jpeg" style="width:100%">
+                    <div class="text">Sausage Egg Omelete cooked with cheese, onions, bell peppers, spinach, mushrooms, and tomatoes.</div>
+                </div>
+
+                
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="images/frenchtoast.jpeg" style="width:100%">
+                    <div class="text">French toast with powdered sugar, strawberries, and homade strawberry puree alognside fluffy eggs, pork sausage, and baccon.</div>
+
+                </div>
+
+                
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="images/Pancake Breakfast sandwhich.jpeg" style="width:100%">
+                    <div class="text">Sausgen and cheesey folded eggs stuffed between two buttery Crsiped edged pancakes.</div>
+                </div>
+
+              
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="images/bologna breakfast sandwhich.jpeg" style="width:100%">
+                    <div class="text">Fried bologna and fried egg with cheese in between two pieces of buttery toast.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+                
+            
         </main>
         <footer>
             
-            <img src="images/Diverse Cooking Inspirations For You.jpg" alt="Logo" alt="Logo" width="200px" height="140px">
-            
-            <p>Diverse Cooking Inspirations For You </p>
-        <p> &copy; 2023 Tyquan Spurgeon, University Of South Carolina, Columbia South Carolina</p>
+                <img src="images/Diverse Cooking Inspirations For You.jpg" alt="Logo" alt="Logo" width="200px" height="140px">
+                
+                <p>Diverse Cooking Inspirations For You </p>
+            <p> &copy; 2023 Tyquan Spurgeon, University Of South Carolina, Columbia South Carolina</p>
+            <script src="script.js"></script>
 
-    </footer>
-    
-
+        </footer>
+        
 
     </body>
 </html>
+
